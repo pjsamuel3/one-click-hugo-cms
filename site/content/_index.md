@@ -37,4 +37,8 @@ values:
     colonialism and mindless abuse of natural resources and human lives. We want
     to turn this around and return the coffee trade to the drink’s exhilarating,
     empowering and unifying nature.
+welcome:
+  heading: Getting started
+  text: >-
+    Staring a new job can be daunting. A bit like writing these docs
 ---
