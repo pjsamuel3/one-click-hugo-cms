@@ -1,12 +1,9 @@
 ---
-title: "Getting Started"
+title: Getting Started
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  bla bla bla
-#image: /img/blog-chemex.jpg
+description: bla bla bla
 ---
-
-## Create ssh key
+## Create ssh key demo
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "<AMEDIA_EMAIL>"
@@ -45,6 +42,7 @@ Host jump.api.no
         User <USERNAME>
         ForwardAgent yes
 ```
+
 If your private key file is named something other than `id_rsa`, add `IdentityFile ~/.ssh/<private-key-file>` after `ForwardAgent`.
 
 To use your local keys on the remote server (jump.api.no), you need to setup ssh-agent and add your key.
@@ -104,5 +102,5 @@ Enter password and verify access by following the above steps.
 
 ## References
 
-- [How to generate ssh key](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- [How to add an ssh key to github](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
+* [How to generate ssh key](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [How to add an ssh key to github](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
